@@ -1,0 +1,21 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "UI components and assets for Webaverse",
+  "main": "dist/ui-components.es.js",
+  "module": "dist/ui-components.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webaverse/ui-components.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/webaverse/ui-components#readme",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "dependencies": {
+    "vite": "^3.2.4",
+    "vite-plugin-swc-react-refresh": "^2.2.1"
+  }
+}
